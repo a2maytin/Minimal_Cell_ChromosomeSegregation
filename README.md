@@ -10,6 +10,7 @@ Initial chromosome configuration is built using sc_chain_generation (Gilbert et 
 
 ## Repository contents
 
+- `LAMMPS_DNA_model_kk/`: various parameters used for calling LAMMPS 
 - `scripts/`: simulation input templates and run drivers
 - `shell_scripts/`: job-submission and batch drivers
 - `analysis/`: analysis and plotting notebooks and scripts
