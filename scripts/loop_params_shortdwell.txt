@@ -1,0 +1,11 @@
+basal_death_prob=0.0025
+step_prob=1.0
+stall_death_prob=0.0025
+knockoff=0.0
+bypass=1.0
+N=54338
+numSmc=50
+smcWidth=1
+
+
+
