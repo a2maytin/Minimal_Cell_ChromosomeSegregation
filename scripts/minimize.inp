@@ -1,0 +1,16 @@
+btree_prng_seed:10
+input_state:./rep_state_initial.txt
+load_BD_lengths:./BD_lengths.txt
+load_mono_coords:../data/coords/dna_bare_run_0.bin,row
+load_ribo_coords:../data/coords/ribo_bare_run_0.bin,row
+spherical_bdry:2160.0, 0.0, 0.0, 0.0
+prepare_simulator:../data/bare_run.log
+simulator_set_prng_seed:10
+simulator_set_nProc:8
+simulator_set_DNA_model:/home/andrew/Desktop/Projects/btree_chromo_gpu/LAMMPS_DNA_model_kk
+simulator_set_output_details:../data/,bare_run
+simulator_set_delta_t:2.0E+7
+
+sys_write_sim_read_LAMMPS_data:../data/data_pre_minimization.lammps
+simulator_minimize_hard_harmonic:1000
+sys_write_sim_read_LAMMPS_data:../data/data_post_minimization.lammps

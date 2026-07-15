@@ -7,7 +7,7 @@ run = 2
 min_rep = 1
 max_rep = 1
 # RNG seed
-seed = {SEED}
+seed = 10
 
 ################################
 # Lengths (units of Angstroms) #
